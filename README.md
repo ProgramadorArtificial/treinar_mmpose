@@ -1,7 +1,7 @@
 # MMPose trainer
 Este repositório possui os códigos e arquivos que foram utilizados para realizar um treinamento customizado utilizando a biblioteca [MMPose](https://github.com/open-mmlab/mmpose).
 
-[Vídeo com todas as explicações]()
+[Vídeo com todas as explicações](https://www.youtube.com/watch?v=WCb6mLgtlCo)
 
 ## Pré-requisitos
 Abaixo seguem as principais bibliotecas instaladas para fazer o treinamento de um Pose Estimator:
@@ -22,6 +22,8 @@ OBS: Em environment.yml está o ambiente do Anaconda utilizado, contendo todas a
 
 ## Como rodar
 Para realizar o treinamento é necessário clonar o repositório oficial do [MMPose](https://github.com/open-mmlab/mmpose), os códigos e arquivos neste repositório foram utilizados no vídeo mencionado no início do README.
+
+Deixei em "work_dirst" o modelo de detecção do YOLO treinado e mencionado no vídeo para poder ser usado como fins de estudo.
 
 As anotações se referem ao dataset [Humpback Whale Identification](https://www.kaggle.com/c/humpback-whale-identification/overview) e estão no formato COCO prontos pare sem utilizado no treinamento.
 
